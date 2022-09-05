@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.title{
+    justify-content: center;
+    display: flex;
+    font-size: 72px;
+  background: -webkit-linear-gradient(90deg, #FC466B 20%, #002aff 100%);
+  border: 10px solid #FC466B  ;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container
+{
+width: 100%;
+height: 100vh;
+    background-color: rgb(202, 201, 201);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   box-shadow:3px 19px #fff;
+   position: relative;
+}
+.main-content{
+    background-color: rgb(255, 255, 255) !important;
+    justify-content: center;
+    width: 450px;
+    height: 580px;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 7px 11px 33px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 11px 33px -8px rgba(0,0,0,0.75);
+    box-shadow: 7px 11px 33px -8px rgba(0,0,0,0.75);
+    position: relative;
+    transition: 0.2s ease-in-out;
+
+}
+.main-content:hover{
+    -webkit-box-shadow: 7px 37px 33px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 37px 33px -12px rgba(0,0,0,0.75);
+box-shadow: 7px 37px 33px -12px rgba(0,0,0,0.75);
+    transition: 0.2s ease-in-out;
+    transform: translateY(-5%);
+}
+
+.main-content .food-poster img{
+
+    width: 450px;
+   height: 320px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   border-radius: 0.5rem 0.5rem 0px 0px;
+
+}
+
+.tag{
+    position: absolute;
+    top: 20px;
+    right: 20px ;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 0.2rem;
+    font-size: 15px;
+   
+
+ 
+}
+
+.text-show{
+    padding: 2rem;
+}
+h1{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    
+    padding: 10px 10px;
+    
+}
+p{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+line-height: 1.5rem;
+padding: 10px 10px;
+color: rgb(152, 150, 150);
+font-weight: bolder;
+letter-spacing: 0.5px;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  top: px;
+  
+    
+
+}
+{
+  
+    
+   
+
+}
